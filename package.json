@@ -1,6 +1,6 @@
 {
   "name": "words-en",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "List of English words",
   "repository": "amio/words-en",
   "author": "Amio <amio.cn@gmail.com>",
@@ -9,14 +9,13 @@
     "node": ">=4"
   },
   "scripts": {
-    "prepublishOnly": "node fetch-words.js",
-    "pretest": "node fetch-words.js",
-    "test": "xo && ava"
+    "fetch": "node fetch-words.js",
+    "test": "standard && ava"
   },
   "devDependencies": {
     "ava": "*",
     "got": "^6.7.1",
-    "xo": "*"
+    "standard": "^10.0.2"
   },
   "files": [
     "index.js",
