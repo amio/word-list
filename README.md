@@ -13,10 +13,14 @@ $ npm install --save words-en
 ## Usage
 
 ```js
-const words = require('words-en')
-
-console.log(words.split('\n'))
+const words = require('words-en').split('\n')
 // => […, 'abmhos', 'abnegate', …]
+
+const filePath = require('words-en/path')
+// => <path-to-words.txt>
+
+const readableStream = require('words-en/stream')
+// => <readable-stream>
 ```
 
 ## License
