@@ -1,32 +1,24 @@
-# word-list [![Build Status](https://travis-ci.org/sindresorhus/word-list.svg?branch=master)](https://travis-ci.org/sindresorhus/word-list)
+# words-en
 
 > List of [English words](https://github.com/atebits/Words/blob/master/Words/en.txt)
 
 Useful if you're creating a word game or just want some words to work with.
 
-Used by [`word-stream`](https://github.com/sindresorhus/word-stream) and [`random-word`](https://github.com/sindresorhus/random-word).
-
-
 ## Install
 
 ```
-$ npm install --save word-list
+$ npm install --save words-en
 ```
-
 
 ## Usage
 
 ```js
-const fs = require('fs');
+const words = require('words-en')
 
-// Returns the path to the word list which is separated by `\n`
-const wordListPath = require('word-list');
-
-const wordArray = fs.readFileSync(wordListPath, 'utf8').split('\n');
-//=> […, 'abmhos', 'abnegate', …]
+console.log(words.split('\n'))
+// => […, 'abmhos', 'abnegate', …]
 ```
-
 
 ## License
 
-MIT © [Sindre Sorhus](https://sindresorhus.com)
+MIT © [Sindre Sorhus](https://sindresorhus.com) and [Amio](https://amio.cn)

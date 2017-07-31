@@ -1,4 +1,4 @@
-'use strict';
-const path = require('path');
+const fs = require('fs')
+const path = require('path')
 
-module.exports = path.join(__dirname, 'words.txt');
+module.exports = fs.readFileSync(path.join(__dirname, 'words.txt'))
