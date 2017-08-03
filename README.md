@@ -1,5 +1,7 @@
 # words-en
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/amio/words-en.svg)](https://greenkeeper.io/)
+
 > List of [English words](https://github.com/atebits/Words/blob/master/Words/en.txt)
 
 Useful if you're creating a word game or just want some words to work with.
