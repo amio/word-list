@@ -17,10 +17,7 @@ const words = require('words-en').split('\n')
 // => […, 'abmhos', 'abnegate', …]
 
 const filePath = require('words-en/path')
-// => <path-to-words.txt>
-
-const readableStream = require('words-en/stream')
-// => <readable-stream>
+// => '/Users/Amio/git/words-en/words.txt'
 ```
 
 ## License
